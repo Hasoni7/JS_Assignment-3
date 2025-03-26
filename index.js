@@ -21,7 +21,7 @@ function isValidPassword(username, password) {
   }
 
   //password contains username validation
-  if (lowerPassword.includes(lowerPassword)) {
+  if (lowerPassword.includes(lowerUsername)) {
     return false;
   }
 
